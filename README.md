@@ -10,6 +10,24 @@
 
 This template repository is designed to help you quickly set up, develop, test, and demo JavaScript animations using GitHub Pages. The repository includes a basic setup with `HTML`, `CSS`, and `JavaScript` files to create and display animations easily.
 
+## Connect with Us
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/tm-hospitality-strategies/?viewAsMember=true)
+[![X (formerly Twitter)](https://img.shields.io/badge/-X-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/TMHS_X)
+[![Facebook](https://img.shields.io/badge/-Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/profile.php?viewas=100000686899395&id=100071356407115)
+[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/tmhs.ig/)
+[![Instagram (new.ai_news)](https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/new.ai_news/)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TMHSDigital)
+[![Threads (tmhs.ai)](https://img.shields.io/badge/-Threads-000000?style=for-the-badge&logo=threads&logoColor=white)](https://www.instagram.com/new.tmhs.ai/tagram.com/new.ai_news/)
+[![Threads (tmhs.ig)](https://img.shields.io/badge/-Threads-000000?style=for-the-badge&logo=threads&logoColor=white)](https://www.instagram.com/new.tmhs.ai/tagram.com/new.tmhs.ig/)
+[![Polar](https://img.shields.io/badge/-Polar-000000?style=for-the-badge&logo=polar&logoColor=white)](https://polar.sh/tmhs/)
+[![Patreon](https://img.shields.io/badge/-Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/_TMHS?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink)
+[![Gumroad](https://img.shields.io/badge/-Gumroad-36A9AE?style=for-the-badge&logo=gumroad&logoColor=white)](https://tmhs.gumroad.com/?_gl=1*rf0zv7*_ga*NjA2NzYzNjg3LjE3MjI3NTI1NDY.*_ga_6LJN6D94N6*MTcyMzMwNzMwNi43LjEuMTcyMzMwNzMxNC4wLjAuMA..)
+[![Sellfy](https://img.shields.io/badge/-Sellfy-21B352?style=for-the-badge&logo=sellfy&logoColor=white)](https://sellfy.com/user/dashboard)
+[![UpWork](https://img.shields.io/badge/-UpWork-6FDA44?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~012e044fe86618cf64?viewMode=1)
+[![HackerOne](https://img.shields.io/badge/-HackerOne-494EED?style=for-the-badge&logo=hackerone&logoColor=white)](https://hackerone.com/tmhs)
+[![YouTube](https://img.shields.io/badge/-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCeA22MjbnroVywVLC6z8oug)
+
 ## Project Structure
 
 The repository consists of the following files:
