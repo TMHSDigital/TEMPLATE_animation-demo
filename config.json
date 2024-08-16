@@ -1,0 +1,12 @@
+{
+  "demos": [
+    {
+      "id": "button1",
+      "name": "Glowing Button",
+      "description": "A button with a pulsating glow effect",
+      "css": "css/button-styles/button1.css",
+      "js": "js/button-scripts/button1.js",
+      "html": "components/button-demos/button1.html"
+    }
+  ]
+}
