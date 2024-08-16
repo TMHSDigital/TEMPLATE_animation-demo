@@ -15,6 +15,14 @@
       "css": "css/button-styles/button2.css",
       "js": "js/button-scripts/button2.js",
       "html": "components/button-demos/button2.html"
+    },
+    {
+      "id": "button3",
+      "name": "Quantum Ripple",
+      "description": "A button that creates a ripple effect and quantum flicker",
+      "css": "css/button-styles/button3.css",
+      "js": "js/button-scripts/button3.js",
+      "html": "components/button-demos/button3.html"
     }
   ]
 }

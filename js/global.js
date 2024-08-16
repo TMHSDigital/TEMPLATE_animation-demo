@@ -1,13 +1,20 @@
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('components/header.html')
-        .then(response => response.text())
-        .then(data => {
-            document.getElementById('header').innerHTML = data;
-        });
+    // Existing code...
 
-    fetch('components/footer.html')
-        .then(response => response.text())
-        .then(data => {
-            document.getElementById('footer').innerHTML = data;
-        });
+    // Dark mode toggle
+    const darkModeToggle = document.createElement('button');
+    darkModeToggle.id = 'dark-mode-toggle';
+    darkModeToggle.textContent = 'í¼“';
+    darkModeToggle.setAttribute('aria-label', 'Toggle dark mode');
+    document.body.appendChild(darkModeToggle);
+
+    darkModeToggle.addEventListener('click', () => {
+        document.body.classList.toggle('dark-mode');
+        localStorage.setItem('darkMode', document.body.classList.contains('dark-mode'));
+    });
+
+    // Check for saved dark mode preference
+    if (localStorage.getItem('darkMode') === 'true') {
+        document.body.classList.add('dark-mode');
+    }
 });

@@ -1,0 +1,54 @@
+.quantum-ripple {
+  position: relative;
+  padding: 20px 40px;
+  font-size: 24px;
+  color: #fff;
+  background: #000;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.ripple-text {
+  position: relative;
+  z-index: 2;
+  transition: all 0.5s;
+}
+
+.ripple-effect {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5px;
+  height: 5px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.quantum-ripple:hover .ripple-effect {
+  width: 300px;
+  height: 300px;
+  opacity: 0;
+}
+
+.quantum-ripple:hover {
+  background: linear-gradient(45deg, #00ffff, #ff00ff);
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.6), 0 0 60px rgba(255, 0, 255, 0.6);
+}
+
+.quantum-ripple:hover .ripple-text {
+  animation: quantumFlicker 0.5s infinite;
+}
+
+@keyframes quantumFlicker {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.quantum-ripple:active {
+  transform: scale(0.95) rotate(3deg);
+}
