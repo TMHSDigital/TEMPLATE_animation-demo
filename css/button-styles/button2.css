@@ -1,0 +1,40 @@
+.neon-pulse {
+  position: relative;
+  padding: 15px 30px;
+  font-size: 18px;
+  color: #fff;
+  background: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.neon-pulse::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(45deg, #ff00ff, #00ffff, #ff00ff, #00ffff);
+  z-index: -1;
+  filter: blur(5px);
+  animation: neonPulse 5s linear infinite;
+}
+
+@keyframes neonPulse {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
+
+.neon-pulse:hover {
+  color: #000;
+  background: transparent;
+}
+
+.neon-pulse:active {
+  transform: scale(0.95);
+}

@@ -2,11 +2,19 @@
   "demos": [
     {
       "id": "button1",
-      "name": "Glowing Button",
-      "description": "A button with a pulsating glow effect",
+      "name": "Dimension Shifter",
+      "description": "A button that appears to shift between dimensions",
       "css": "css/button-styles/button1.css",
       "js": "js/button-scripts/button1.js",
       "html": "components/button-demos/button1.html"
+    },
+    {
+      "id": "button2",
+      "name": "Neon Pulse",
+      "description": "A button with a pulsating neon glow effect",
+      "css": "css/button-styles/button2.css",
+      "js": "js/button-scripts/button2.js",
+      "html": "components/button-demos/button2.html"
     }
   ]
 }
