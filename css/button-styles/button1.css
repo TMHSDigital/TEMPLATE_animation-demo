@@ -1,0 +1,71 @@
+.demo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  perspective: 1000px;
+}
+
+.dimension-shifter {
+  position: relative;
+  padding: 20px 40px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  background: none;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transform-style: preserve-3d;
+}
+
+.button-text {
+  position: relative;
+  z-index: 2;
+  transition: all 0.5s;
+}
+
+.button-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, #ff00ff, #00ffff);
+  transform: translateZ(-10px);
+  transition: all 0.5s;
+}
+
+.dimension-shifter:hover {
+  transform: rotateX(10deg) rotateY(-10deg) rotateZ(5deg);
+  box-shadow: 
+    0 15px 30px rgba(0,0,0,0.3),
+    0 0 0 2px rgba(255,255,255,0.3);
+}
+
+.dimension-shifter:hover .button-background {
+  transform: translateZ(0) scale(1.1);
+  filter: blur(10px);
+}
+
+.dimension-shifter:hover .button-text {
+  text-shadow: 0 0 10px rgba(255,255,255,0.8);
+  letter-spacing: 3px;
+}
+
+.dimension-shifter:active {
+  transform: rotateX(-10deg) rotateY(10deg) rotateZ(-5deg) scale(0.95);
+}
+
+@keyframes shiftDimensions {
+  0%, 100% { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
+  25% { clip-path: polygon(25% 0, 100% 25%, 75% 100%, 0 75%); }
+  50% { clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%); }
+  75% { clip-path: polygon(25% 0, 75% 25%, 100% 75%, 0 100%); }
+}
+
+@keyframes pulseGlow {
+  0%, 100% { box-shadow: 0 0 20px rgba(255,0,255,0.8), 0 0 30px rgba(0,255,255,0.6); }
+  50% { box-shadow: 0 0 40px rgba(255,0,255,0.8), 0 0 60px rgba(0,255,255,0.6); }
+}
